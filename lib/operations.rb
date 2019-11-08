@@ -1,7 +1,7 @@
 def unsafe?(speed)
   speed = gets.chomp
  
-if (gets.chomp < 40 || gets.chomp > 60)
+if < 40 ||  > 60)
   return  "true"
 else 
   return  "false"
